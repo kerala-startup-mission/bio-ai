@@ -77,7 +77,7 @@ export default function Navbar() {
               </div>
               <div className="h-10 w-px bg-gray-300 shrink-0" />
               <div className="flex items-center gap-5">
-                <Image src="/ksum-logo.png" alt="Kerala Startup Mission" width={220} height={88} style={{ width: "auto" }} className="object-contain h-16 shrink-0" priority />
+                <Image src="/logo.svg" alt="Kerala Startup Mission" width={200} height={80} style={{ width: "auto" }} className="object-contain h-10 shrink-0" priority />
                 <Image src="/kerala-it.png" alt="Kerala IT"              width={100} height={40} style={{ width: "auto" }} className="object-contain h-8" />
               </div>
             </div>
@@ -113,12 +113,12 @@ export default function Navbar() {
             <div className="flex items-center justify-between border-t border-gray-200/80 pt-3">
               <div className="flex items-center gap-3 sm:gap-4">
                 <Image
-                  src="/ksum-logo.png"
+                  src="/logo.svg"
                   alt="Kerala Startup Mission"
                   width={140}
                   height={56}
                   style={{ width: "auto" }}
-                  className="object-contain h-[34px] sm:h-[38px] shrink-0"
+                  className="object-contain h-[30px] sm:h-[30px] shrink-0"
                   priority
                 />
                 <div className="h-5 w-px bg-gray-300 shrink-0" />
@@ -201,12 +201,12 @@ export default function Navbar() {
               {/* Panel header */}
               <div className="flex items-center justify-between px-5 pt-5 pb-4 border-b border-gray-100">
                 <Image
-                  src="/ksum-logo.png"
+                  src="/logo.svg"
                   alt="Kerala Startup Mission"
                   width={150}
                   height={60}
                   style={{ width: "auto" }}
-                  className="object-contain h-9"
+                  className="object-contain h-8"
                 />
                 <button
                   onClick={closeMenu}
