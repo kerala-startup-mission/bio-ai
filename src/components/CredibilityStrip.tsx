@@ -78,12 +78,12 @@ export default function CredibilityStrip() {
               className="group flex flex-col items-center gap-2 sm:gap-4 cursor-pointer hover:opacity-90 hover:scale-[1.02] transition-all duration-300"
             >
               <Image
-                src="/ksum-logo.png"
+                src="/logo.svg"
                 alt="Kerala Startup Mission"
                 width={192}
                 height={80}
                 style={{ width: "auto" }}
-                className="object-contain h-12 sm:h-14 md:h-16 lg:h-20"
+                className="object-contain h-12 sm:h-12 md:h-14 lg:h-14"
               />
               <span className="hidden sm:block text-[10px] md:text-xs font-bold text-text-secondary group-hover:text-text-primary uppercase tracking-widest text-center transition-colors">Kerala Startup Mission</span>
             </a>

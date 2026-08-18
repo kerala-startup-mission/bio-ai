@@ -57,7 +57,7 @@ export default function Footer() {
           <div className="lg:col-span-6 space-y-6">
             <div>
               <Image
-                src="/ksum-logo.png"
+                src="/logo.svg"
                 alt="Kerala Startup Mission"
                 width={140}
                 height={56}
